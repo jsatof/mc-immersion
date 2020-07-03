@@ -1,0 +1,9 @@
+main: me.N0handles.FishingSimulator.Main
+name: FishingSimulator
+author: N0handles
+description: Further improving the best aspect of the game
+version: 1.0
+
+commands:
+  test:
+    
