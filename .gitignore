@@ -1,0 +1,5 @@
+# eclipse meta/setup files
+.settings/
+.classpath
+.project
+
