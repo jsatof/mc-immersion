@@ -4,9 +4,10 @@ CLASS = -classpath ".:/mnt/d/develop/.libraries/BuildTools/spigot-1.15.2.jar"
 
 fishing: 
 	$(JJ) $(CLASS) fishing/src/me/N0handles/fishing/*.java -d fishing/bin
-	$(JAR) customFishing.jar fishing/*
+	$(JAR) customFishing.jar fishing/bin/* fishing/src/*
 
 food: 
-	$(JJ) $(JARS) immersion/src/me/N0handles/FishingSimulator/*.java
+	$(JJ) $(CLASS) food/src*.java
+	$(JAR) customFood.har food/*
 
 .PHONY: fishing food
