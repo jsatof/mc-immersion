@@ -1,0 +1,8 @@
+main: me.N0handles.fishing.Main
+name: fishing
+author: N0handles
+description: "Improvements to the fishing experience"
+version: 1.0
+commands:
+  test:
+    
